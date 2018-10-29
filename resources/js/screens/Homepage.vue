@@ -4,6 +4,9 @@
             <h3>Category</h3><hr>
             <ul class="list-group">
                 <li class="list-group-item">
+                    <router-link to="/"><i class="far fa-shopping-cart"></i> Cart (0)</router-link>
+                </li>
+                <li class="list-group-item">
                     <router-link to="/">All</router-link>
                 </li>
                 <li class="list-group-item" v-for="category in categories" v-bind:key="category.id">

@@ -7,7 +7,7 @@
                     <div class="card-body">
                         <h5 class="card-title">{{product.name}}</h5>
                         <p class="card-text">RM {{product.price}}</p>
-                        <div class="input-group">
+                        <!-- <div class="input-group">
                             <div class="input-group-prepend" id="button-addon3">
                                 <button class="btn btn-outline-secondary" type="button" @click="quantities('minus')">-</button>
                             </div>
@@ -16,7 +16,7 @@
                                 <button class="btn btn-outline-secondary" type="button" @click="quantities('add')">+</button>
                             </div>
                         </div><br>
-                        <button class="btn btn-success btn-block">Add To Cart</button>
+                        <button class="btn btn-success btn-block">Add To Cart</button> -->
                         <button class="btn btn-primary btn-block" @click="moreInfo(product.product_id)">More Info</button>
                     </div>
                 </div>
